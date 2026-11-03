@@ -1,7 +1,9 @@
 import java.util.Scanner;
+
 public class Rectangle20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Masukkan jumlah baris: ");
         int baris = sc.nextInt();
         System.out.print("Masukkan jumlah kolom: ");
@@ -13,6 +15,7 @@ public class Rectangle20 {
             }
             System.out.println();
         }
+
         sc.close();
     }
 }
